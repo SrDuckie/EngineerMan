@@ -1,0 +1,17 @@
+@font-face 
+{
+    font-family: DINAlternate;
+    src: url("./DINAlternateRegular/DINAlternateRegular.otf");
+}
+
+@font-face 
+{
+    font-family: DINAlternateBold;
+    src: url("./DINAlternateBold/DINAlternateBold.otf")
+}
+
+@font-face 
+{
+    font-family: Audiowide;
+    src: url("./Audiowide/Audiowide-Regular.ttf")
+}

@@ -1,0 +1,79 @@
+{
+    "MajorMenus":[
+        {
+            "Label" : "Home",
+            "Position": 0,
+            "Length": 0  
+        },
+        {
+            "Label":"Designs",
+            "MinorMenus":[
+                {
+                    "Label":"Animations",
+                    "Position":0
+                },
+                {
+                    "Label":"Models",
+                    "Position":0
+                },
+                {
+                    "Label":"Gallery",
+                    "Position":0
+                }
+            ],
+            "Position":0,
+            "Length":3
+        },
+        {
+            "Label":"Code",
+            "MinorMenus":[
+                {
+                    "Label":"Documentation",
+                    "Position":0
+                },
+                {
+                    "Label":"AI",
+                    "Position":0
+                }
+            ],
+            "Position":0,
+            "Length":2
+        },
+        {
+            "Label":"Out Team",
+            "MinorMenus":[
+                {
+                    "Label":"Bios and Skills",
+                    "Position":0
+                }
+            ],
+            "Position":0,
+            "Length":1
+        },
+        {
+            "Label":"I need help!",
+            "MinorMenus":[
+                {
+                    "Label":"Commission",
+                    "Position":0
+                },
+                {
+                    "Label":"Tutors",
+                    "Position":0
+                },
+                {
+                    "Label":"Tutorials",
+                    "Position":0
+                }
+            ],
+            "Position":0,
+            "Length":3
+        }
+    ],
+    "Length":5,
+    "Color":{
+        "Red": 66,
+        "Green": 66,
+        "Blue": 66
+    }
+}

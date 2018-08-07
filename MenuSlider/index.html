@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>    
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Nova Ardent</title>
+    
+    <head>
+        <link rel="stylesheet" type="text/css" href="./Fonts/Fonts.css">
+        <link rel="stylesheet" type="text/css" href="./MenuBar/popMenu.css">
+        
+        <script src="./jquery/jquery.js"></script>
+        <script src="MenuBar/popMenu.js"></script>
+        
+        <style>
+            popMenu > MajorMenu {font-family: DINAlternateBold;}
+            popMenu > MinorMenu {font-family: DINAlternate;}
+            popMenu > Logo {background-image: url(./Images/LogoIcon.svg);}
+        </style>
+        
+        <script>
+            $(document).ready(function(){
+                popMenu.loadPopMenu("./MenuBar/popMenus.json");
+            });
+        </script>
+    </head>
+    <body style="min-width: 600px;">
+        <popMenuExpander class="transition">
+            <i class="fas fa-bars"></i>
+        </popMenuExpander>
+        <popMenu class="transition">
+            <Logo></Logo>
+            <backSlider></backSlider>
+            <backSliderTail></backSliderTail>
+        </popMenu>
+    </body>
+</html>
